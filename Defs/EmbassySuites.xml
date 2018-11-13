@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <RuleDef>
+        <defName>embassy</defName>
+        <symbol>embassy</symbol>
+        <resolvers>
+            <li Class="embassy.SymbolResolver_Embassy">
+                <minRectSize>(5, 5)</minRectSize>
+            </li>
+        </resolvers>
+    </RuleDef>
+
+
+
+    <IncidentDef>
+        <defName>EmabassyArrival</defName>
+        <label>emabassy arrival</label>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>embassy.IncidentWorker_EmabassyArrival</workerClass>
+        <category>FactionArrival</category>
+        <baseChance>20</baseChance>
+    </IncidentDef>
+</Defs>

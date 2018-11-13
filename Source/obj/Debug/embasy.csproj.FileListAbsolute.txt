@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\embasy\Assemblies\embasy.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\embasy\Source\obj\Debug\embasy.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\embasy\Source\obj\Debug\embasy.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\embasy\Source\obj\Debug\embasy.dll

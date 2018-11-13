@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/DesignationCategoryDef[defName='Zone']/specialDesignatorClasses</xpath>
+        <value>
+            <li>embassy.Designator_ZoneAdd_Embassy</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/StorytellerDef/comps</xpath>
+        <value>
+            <li Class="StorytellerCompProperties_FactionInteraction">
+                <incident>EmabassyArrival</incident>
+                <minDaysPassed>0.001</minDaysPassed>
+                <baseIncidentsPerYear>20</baseIncidentsPerYear>
+                <minSpacingDays>0.5</minSpacingDays>
+                <allowedTargetTags>
+                    <li>Map_PlayerHome</li>
+                </allowedTargetTags>
+            </li>
+        </value>
+    </Operation>
+</Patch>
